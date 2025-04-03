@@ -1,0 +1,5 @@
+name = str(input())
+fxslr = float(input())
+tsld = float(input())
+total = fxslr + (tsld * 0.15)
+print(f"TOTAL = R$ {total:.2f}\n")
